@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA881721E6E65ED00A976EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA881711E6E65ED00A976EA /* AppDelegate.swift */; };
+		BCA881741E6E65ED00A976EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA881731E6E65ED00A976EA /* ViewController.swift */; };
+		BCA881771E6E65ED00A976EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA881751E6E65ED00A976EA /* Main.storyboard */; };
+		BCA8817A1E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCA881781E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld */; };
+		BCA8817C1E6E65ED00A976EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA8817B1E6E65ED00A976EA /* Assets.xcassets */; };
+		BCA8817F1E6E65ED00A976EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA8817D1E6E65ED00A976EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCA8816E1E6E65ED00A976EA /* Christian Spaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christian Spaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA881711E6E65ED00A976EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA881731E6E65ED00A976EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA881761E6E65ED00A976EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA881791E6E65ED00A976EA /* Christian_Spaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Christian_Spaces.xcdatamodel; sourceTree = "<group>"; };
+		BCA8817B1E6E65ED00A976EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA8817E1E6E65ED00A976EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA881801E6E65ED00A976EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA8816B1E6E65ED00A976EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA881651E6E65ED00A976EA = {
+			isa = PBXGroup;
+			children = (
+				BCA881701E6E65ED00A976EA /* Christian Spaces */,
+				BCA8816F1E6E65ED00A976EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA8816F1E6E65ED00A976EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8816E1E6E65ED00A976EA /* Christian Spaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA881701E6E65ED00A976EA /* Christian Spaces */ = {
+			isa = PBXGroup;
+			children = (
+				BCA881711E6E65ED00A976EA /* AppDelegate.swift */,
+				BCA881731E6E65ED00A976EA /* ViewController.swift */,
+				BCA881751E6E65ED00A976EA /* Main.storyboard */,
+				BCA8817B1E6E65ED00A976EA /* Assets.xcassets */,
+				BCA8817D1E6E65ED00A976EA /* LaunchScreen.storyboard */,
+				BCA881801E6E65ED00A976EA /* Info.plist */,
+				BCA881781E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld */,
+			);
+			path = "Christian Spaces";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA8816D1E6E65ED00A976EA /* Christian Spaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA881831E6E65ED00A976EA /* Build configuration list for PBXNativeTarget "Christian Spaces" */;
+			buildPhases = (
+				BCA8816A1E6E65ED00A976EA /* Sources */,
+				BCA8816B1E6E65ED00A976EA /* Frameworks */,
+				BCA8816C1E6E65ED00A976EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Christian Spaces";
+			productName = "Christian Spaces";
+			productReference = BCA8816E1E6E65ED00A976EA /* Christian Spaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA881661E6E65ED00A976EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nahin Ahmed";
+				TargetAttributes = {
+					BCA8816D1E6E65ED00A976EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCA881691E6E65ED00A976EA /* Build configuration list for PBXProject "Christian Spaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA881651E6E65ED00A976EA;
+			productRefGroup = BCA8816F1E6E65ED00A976EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA8816D1E6E65ED00A976EA /* Christian Spaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA8816C1E6E65ED00A976EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA8817F1E6E65ED00A976EA /* LaunchScreen.storyboard in Resources */,
+				BCA8817C1E6E65ED00A976EA /* Assets.xcassets in Resources */,
+				BCA881771E6E65ED00A976EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA8816A1E6E65ED00A976EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA881741E6E65ED00A976EA /* ViewController.swift in Sources */,
+				BCA881721E6E65ED00A976EA /* AppDelegate.swift in Sources */,
+				BCA8817A1E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCA881751E6E65ED00A976EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA881761E6E65ED00A976EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA8817D1E6E65ED00A976EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA8817E1E6E65ED00A976EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA881811E6E65ED00A976EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA881821E6E65ED00A976EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA881841E6E65ED00A976EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Christian Spaces/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.christianspaces.Christian-Spaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCA881851E6E65ED00A976EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Christian Spaces/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.christianspaces.Christian-Spaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA881691E6E65ED00A976EA /* Build configuration list for PBXProject "Christian Spaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA881811E6E65ED00A976EA /* Debug */,
+				BCA881821E6E65ED00A976EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA881831E6E65ED00A976EA /* Build configuration list for PBXNativeTarget "Christian Spaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA881841E6E65ED00A976EA /* Debug */,
+				BCA881851E6E65ED00A976EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCA881781E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCA881791E6E65ED00A976EA /* Christian_Spaces.xcdatamodel */,
+			);
+			currentVersion = BCA881791E6E65ED00A976EA /* Christian_Spaces.xcdatamodel */;
+			path = Christian_Spaces.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCA881661E6E65ED00A976EA /* Project object */;
+}
