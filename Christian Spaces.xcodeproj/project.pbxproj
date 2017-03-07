@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		BCA881721E6E65ED00A976EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA881711E6E65ED00A976EA /* AppDelegate.swift */; };
-		BCA881741E6E65ED00A976EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA881731E6E65ED00A976EA /* ViewController.swift */; };
 		BCA881771E6E65ED00A976EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA881751E6E65ED00A976EA /* Main.storyboard */; };
 		BCA8817A1E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCA881781E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld */; };
 		BCA8817C1E6E65ED00A976EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA8817B1E6E65ED00A976EA /* Assets.xcassets */; };
 		BCA8817F1E6E65ED00A976EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA8817D1E6E65ED00A976EA /* LaunchScreen.storyboard */; };
+		BCA8818D1E6E676C00A976EA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8818C1E6E676C00A976EA /* SWRevealViewController.m */; };
+		BCA8818F1E6E695300A976EA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA8818E1E6E695300A976EA /* MenuViewController.swift */; };
+		BCA881911E6E697100A976EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA881901E6E697100A976EA /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCA8816E1E6E65ED00A976EA /* Christian Spaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christian Spaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA881711E6E65ED00A976EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCA881731E6E65ED00A976EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCA881761E6E65ED00A976EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCA881791E6E65ED00A976EA /* Christian_Spaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Christian_Spaces.xcdatamodel; sourceTree = "<group>"; };
 		BCA8817B1E6E65ED00A976EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCA8817E1E6E65ED00A976EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA881801E6E65ED00A976EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA8818A1E6E676B00A976EA /* Christian Spaces-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Christian Spaces-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCA8818B1E6E676C00A976EA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BCA8818C1E6E676C00A976EA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BCA8818E1E6E695300A976EA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BCA881901E6E697100A976EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,43 @@
 		BCA881701E6E65ED00A976EA /* Christian Spaces */ = {
 			isa = PBXGroup;
 			children = (
-				BCA881711E6E65ED00A976EA /* AppDelegate.swift */,
-				BCA881731E6E65ED00A976EA /* ViewController.swift */,
+				BCA881921E6E755900A976EA /* Menu */,
+				BCA881891E6E674900A976EA /* SWRevealViewController */,
+				BCA881861E6E672300A976EA /* Supporting Files */,
 				BCA881751E6E65ED00A976EA /* Main.storyboard */,
+			);
+			path = "Christian Spaces";
+			sourceTree = "<group>";
+		};
+		BCA881861E6E672300A976EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA881711E6E65ED00A976EA /* AppDelegate.swift */,
 				BCA8817B1E6E65ED00A976EA /* Assets.xcassets */,
 				BCA8817D1E6E65ED00A976EA /* LaunchScreen.storyboard */,
 				BCA881801E6E65ED00A976EA /* Info.plist */,
 				BCA881781E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld */,
 			);
-			path = "Christian Spaces";
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA881891E6E674900A976EA /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8818B1E6E676C00A976EA /* SWRevealViewController.h */,
+				BCA8818C1E6E676C00A976EA /* SWRevealViewController.m */,
+				BCA8818A1E6E676B00A976EA /* Christian Spaces-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		BCA881921E6E755900A976EA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8818E1E6E695300A976EA /* MenuViewController.swift */,
+				BCA881901E6E697100A976EA /* HomeViewController.swift */,
+			);
+			name = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +133,7 @@
 				TargetAttributes = {
 					BCA8816D1E6E65ED00A976EA = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,9 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA881741E6E65ED00A976EA /* ViewController.swift in Sources */,
+				BCA881911E6E697100A976EA /* HomeViewController.swift in Sources */,
 				BCA881721E6E65ED00A976EA /* AppDelegate.swift in Sources */,
 				BCA8817A1E6E65ED00A976EA /* Christian_Spaces.xcdatamodeld in Sources */,
+				BCA8818D1E6E676C00A976EA /* SWRevealViewController.m in Sources */,
+				BCA8818F1E6E695300A976EA /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +301,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Christian Spaces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.christianspaces.Christian-Spaces";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Christian Spaces/Christian Spaces-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,10 +316,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Christian Spaces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.christianspaces.Christian-Spaces";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Christian Spaces/Christian Spaces-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
